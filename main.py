@@ -26,8 +26,8 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 class ScriptSelect(discord.ui.Select):
     def __init__(self):
         options = [
-            discord.SelectOption(label="Brainrot Heroes", description="สคริปต์หลัก", emoji="🏹", value="brainrot_heroes"),
-            discord.SelectOption(label="Be a lucky block", description="สคริปต์ฟาร์ม", emoji="🚜", value="luckyblock_farm"),
+            discord.SelectOption(label="Brainrot Heroes", description="Vanguard Hub v2.0.0", emoji="🏹", value="brainrot_heroes"),
+            discord.SelectOption(label="Be a lucky block", description="Vanguard Hub v1.0.0", emoji="🚜", value="luckyblock_farm"),
         ]
         super().__init__(placeholder="เลือกสคริปต์...", options=options)
 
