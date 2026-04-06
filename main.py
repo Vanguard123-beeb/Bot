@@ -61,7 +61,7 @@ async def on_ready():
 @bot.tree.command(name="script")
 async def script(interaction: discord.Interaction):
     embed = discord.Embed(
-        title="🛡️ Script Menu",
+        title="🛡️ Vanguard Hub Script Menu",
         description="เลือกสคริปต์ด้านล่าง",
         color=0x2f3136
     )
